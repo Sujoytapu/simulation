@@ -56,10 +56,21 @@ print(f"Waiting Time: {waiting}")
 print(f"The Customer Spends in System: {systime}")
 print(f"Idle Time of Server: {idletime}")
 
-print("Customer No \t Arrival Time \t Service Time \t\t TSB \t\t\t Waiting Time \t\t\t\t TSE \t\t\t\t Spends in System \t\t\t Idle Time ")
-while d<len(x):
-    print(d+1," \t \t  \t \t ",arrival[d]," \t\t ",y[d]," \t ",tsb[d],"\t\t\t",waiting[d],"\t\t\t  ", tse[d], "\t\t  ",systime[d],"\t\t  ",idletime[d])    
-    d=d+1
+    
+print("|    Cust. | Inter Arrival | Arrival | Service | Service T. | Waiting T. | Service T. | C. Spend T. | Server   |")
+print("|     No.  |  Time         |  Time   |  Time   |   Begin    |  in Queue  |   End      |  in System  | Idle T.  |")
+
+
+for i in range(19):
+    if i == 0:
+        print(
+            "|    %3i           -           %3i     %1f     %1.2f      %1.4f        %5.3f         %5.3f          -     |"
+            % (i + 1, arrival[i], y[i], tsb[i], waiting[i], tse[i], systime[i]))
+    else:
+        print(
+            "|    %3i         %3i           %3i     %1f     %1.2f      %1.4f        %5.3f         %5.3f       %5.3f  |"
+            % (i + 1, x[i], arrival[i], y[i], tsb[i], waiting[i], tse[i], systime[i], idletime[i]))
+
     
 z=0
 f=0
