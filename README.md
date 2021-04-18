@@ -38,7 +38,7 @@ There was a problem in our first submission. In a floating point value we had us
 
 
 ### Contributors
-1. Sujoy Saha 
+1. [Sujoy Saha](https://github.com/Sujoytapu)
 2. Sajib Debnath
 3. [Tutul Roy](https://github.com/TUTULROY)
 4. Md. Ali Mortuja
