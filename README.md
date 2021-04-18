@@ -2,11 +2,11 @@
 The implementation of python projects deals with one problem of single-channel queuing problems. It shows that a single-channel queuing model without losses can be used to solve queuing problems. It is composed of the queue and service center and uses the FIFO system.A single-channel queue can be used for a bank system /ticket counter service/any delivery service.
 
 ### Requirements
-*Python 3.8
-*Pandas
-*Spyder
-*Numpy
-*Matplotlib
+* Python 3.8
+* Pandas
+* Spyder
+* Numpy
+* Matplotlib
 
 ### Introduction
 To describe queuing problems through mathematical formulation, some assumptions are made by considering arrivals and services as patterned by known function. Equations representing the distribution of the time between arrivals are used with other equations depicting other features such as the distribution of the service time. The relationship existing between these equations is the matter studied in waiting line theory. Arrivals of people or entry requirements (events) are customarily Poisson distributed. The duration of the service provided by people is usually exponentially distributed. For generating interarrival and service times, gamma and Weibull distributions are also utilized depending on the model as the exponential distribution is said to be a special case of both of the gamma and Weibull distributions.
