@@ -25,7 +25,7 @@ A curve meeting needed requirements is often known as a density curve. Some exam
 There’s another type of distribution that often pops up in literature which you should know about called cumulative distribution function. All random variables (discrete and continuous) have a cumulative distribution function. It is a function giving the probability that the random variable X is less than or equal to x, for every value x. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities.
 
 
-### Poison Distribution fot Inter Arrival time 
+### Poison Distribution for Inter Arrival time 
 The Poisson is a discrete probability distribution and yields the number of arrivals in a given time. The exponential distribution is a continuous function and yields the distribution of the time intervals between arrivals. The Poisson distribution considers the behavior of arrivals as occurring at random and postulates the presence of a constant “λ” which is independent of the time. The constant λ represents the mean arrival rate or the number of arrivals per unit of time, and λ 1 is the length of the time interval between two consecutive arrivals.
 
 
@@ -33,7 +33,7 @@ The Poisson is a discrete probability distribution and yields the number of arri
 In Exponential Distribution, we can generate an exponentially distributed random variable using scipy.stats module's expon.rvs() method which takes shape parameter scale as its argument which is nothing but 1/lambda in the equation. To shift distribution use the loc argument, size decides the number of random variates in the distribution.
 
 
-### Problem We Have Faced
+### Problems We Have Faced
 There was a problem in our first submission. In a floating point value we had used a long number after point. By the direction of our supervisor we have overcome this problem in our final release.
 
 
